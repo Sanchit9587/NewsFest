@@ -8,7 +8,7 @@ export const getNews = async (domain) => {
       throw new Error("Failed to fetch news");
     }
 
-    const data = await res.json(); // ✅ now clean JSON (after your backend fix)
+    const data = await res.json(); 
     return data;
 
   } catch (error) {
